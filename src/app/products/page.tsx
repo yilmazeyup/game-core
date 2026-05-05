@@ -4,40 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Gamepad2, Search } from "lucide-react";
 import Image from "next/image";
-
-const allProducts = [
-  // Consoles
-  { id: 1, name: "PlayStation 5 Pro", category: "Console", price: "$499", badge: "New", image: "/products/ps5.png" },
-  { id: 2, name: "Xbox Series X", category: "Console", price: "$499", badge: "In Stock", image: "/products/xbox-series-x.png" },
-  { id: 3, name: "Nintendo Switch OLED", category: "Console", price: "$349", badge: "Popular", image: "/products/switch-oled.png" },
-  { id: 4, name: "Steam Deck OLED", category: "Console", price: "$549", badge: "New", image: "/products/steam-deck.png" },
-  { id: 5, name: "Retro Mini NES", category: "Console", price: "$59.99", badge: "Retro", image: "/products/nes-classic.jpg" },
-  { id: 6, name: "PlayStation 4 Slim", category: "Console", price: "$249", badge: "In Stock", image: "/products/ps4-slim.jpg" },
-
-  // Collectibles
-  { id: 7, name: "Pokemon TCG Elite Trainer Box", category: "Collectible", price: "$49.99", badge: "Popular", image: "/products/pokemon-tcg.jpg" },
-  { id: 8, name: "Magic: The Gathering Draft Booster", category: "Collectible", price: "$29.99", badge: "Limited", image: "/products/mtg-cards.jpg" },
-  { id: 9, name: "Yu-Gi-Oh! Starter Deck", category: "Collectible", price: "$19.99", badge: "In Stock", image: "/products/pokemon-cardback.jpg" },
-  { id: 10, name: "Digimon Card Game Booster", category: "Collectible", price: "$14.99", badge: "New", image: "/products/mtg-gameplay.jpg" },
-  { id: 11, name: "One Piece TCG Starter Deck", category: "Collectible", price: "$24.99", badge: "Popular", image: "/products/pokemon-tcg.jpg" },
-  { id: 12, name: "Lorcana Booster Pack", category: "Collectible", price: "$9.99", badge: "Limited", image: "/products/mtg-cards.jpg" },
-
-  // Games
-  { id: 13, name: "GTA VI", category: "Game", price: "$69.99", badge: "Pre-Order", image: "/products/gta-vi.png" },
-  { id: 14, name: "Elden Ring DLC", category: "Game", price: "$39.99", badge: "New", image: "/products/elden-ring.jpg" },
-  { id: 15, name: "Zelda: Echoes of Wisdom", category: "Game", price: "$59.99", badge: "In Stock", image: "/products/zelda-echoes.jpg" },
-  { id: 16, name: "Final Fantasy VII Rebirth", category: "Game", price: "$69.99", badge: "Popular", image: "/products/ff7-rebirth.png" },
-  { id: 17, name: "Spider-Man 2", category: "Game", price: "$49.99", badge: "In Stock", image: "/products/spiderman-2.jpeg" },
-  { id: 18, name: "Hogwarts Legacy", category: "Game", price: "$39.99", badge: "Sale", image: "/products/hogwarts-legacy.png" },
-
-  // Accessories
-  { id: 19, name: "DualSense Edge Controller", category: "Accessory", price: "$199", badge: "Pro", image: "/products/dualsense-edge.jpg" },
-  { id: 20, name: "Xbox Elite Controller 2", category: "Accessory", price: "$179", badge: "Pro", image: "/products/xbox-series-x.png" },
-  { id: 21, name: "Gaming Headset Pro", category: "Accessory", price: "$89.99", badge: "In Stock", image: "/products/dualsense-edge.jpg" },
-  { id: 22, name: "Pro Fight Stick", category: "Accessory", price: "$109", badge: "Limited", image: "/products/dualsense-edge.jpg" },
-  { id: 23, name: "Gaming Stand Deluxe", category: "Accessory", price: "$39.99", badge: "In Stock", image: "/products/ps4-slim.jpg" },
-  { id: 24, name: "Protective Case Set", category: "Accessory", price: "$12.99", badge: "In Stock", image: "/products/switch-oled.png" },
-];
+import { allProducts } from "@/data/products";
 
 const categoryFilters = ["All", "Console", "Collectible", "Game", "Accessory"];
 
