@@ -8,14 +8,6 @@ const locations = [
     city: "Palmdale",
     address: "Palmdale, CA",
   },
-  {
-    city: "Los Angeles",
-    address: "Los Angeles, CA",
-  },
-  {
-    city: "San Diego",
-    address: "San Diego, CA",
-  },
 ];
 
 export default function ContactPage() {
@@ -79,7 +71,7 @@ export default function ContactPage() {
                 transition={{ delay: 0.1 }}
                 className="p-5 rounded-xl bg-gray-900/50 border border-gray-800"
               >
-                <h3 className="text-white font-semibold text-sm mb-4">Our Locations</h3>
+                <h3 className="text-white font-semibold text-sm mb-4">Our Location</h3>
                 <div className="space-y-4">
                   {locations.map((loc) => (
                     <div key={loc.city} className="flex gap-3">

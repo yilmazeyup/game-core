@@ -35,14 +35,14 @@ const featuredProducts = [
     category: "Console",
     price: "$499",
     badge: "New",
-    image: "/products/ps5.png",
+    image: "/products/ps5-console.jpg",
   },
   {
     name: "Pokemon TCG Elite Box",
     category: "Collectible",
     price: "$49.99",
     badge: "Popular",
-    image: "/products/pokemon-tcg.jpg",
+    image: "/products/trading-cards.jpg",
   },
   {
     name: "Nintendo Switch OLED",
@@ -56,14 +56,14 @@ const featuredProducts = [
     category: "Collectible",
     price: "$29.99",
     badge: "Limited",
-    image: "/products/mtg-cards.jpg",
+    image: "/products/cards-table.jpg",
   },
 ];
 
 const stats = [
   { label: "Happy Customers", value: "5,000+", icon: Star },
   { label: "Products", value: "2,500+", icon: Package },
-  { label: "Locations in CA", value: "3", icon: TrendingUp },
+  { label: "Since", value: "2024", icon: TrendingUp },
 ];
 
 const fadeUp = {

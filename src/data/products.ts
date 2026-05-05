@@ -12,15 +12,16 @@ const consoleImages = [
   "/products/xbox-series-x.png",
   "/products/switch-oled.png",
   "/products/steam-deck.png",
-  "/products/nes-classic.jpg",
-  "/products/ps4-slim.jpg",
+  "/products/nes-classic.png",
+  "/products/ps4-slim.png",
+  "/products/ps5-console.jpg",
 ];
 
 const collectibleImages = [
   "/products/pokemon-tcg.jpg",
-  "/products/mtg-cards.jpg",
-  "/products/pokemon-cardback.jpg",
-  "/products/mtg-gameplay.jpg",
+  "/products/trading-cards.jpg",
+  "/products/cards-table.jpg",
+  "/products/pokemon-display.jpg",
 ];
 
 const gameImages = [
@@ -30,12 +31,13 @@ const gameImages = [
   "/products/ff7-rebirth.png",
   "/products/spiderman-2.jpeg",
   "/products/hogwarts-legacy.png",
+  "/products/game-shelf.jpg",
 ];
 
 const accessoryImages = [
-  "/products/dualsense-edge.jpg",
-  "/products/xbox-series-x.png",
-  "/products/ps4-slim.jpg",
+  "/products/dualsense-edge.png",
+  "/products/xbox-controller.png",
+  "/products/headset.jpg",
   "/products/switch-oled.png",
 ];
 

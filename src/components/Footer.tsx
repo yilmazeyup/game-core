@@ -41,19 +41,11 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4">Locations</h3>
+            <h3 className="text-white font-semibold mb-4">Location</h3>
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-purple-400 shrink-0" />
                 <span>Palmdale, CA</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 mt-0.5 text-purple-400 shrink-0" />
-                <span>Los Angeles, CA</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 mt-0.5 text-purple-400 shrink-0" />
-                <span>San Diego, CA</span>
               </li>
             </ul>
           </div>

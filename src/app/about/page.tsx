@@ -23,9 +23,9 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2025", title: "Founded", description: "Game Core launched with a revolutionary approach to gaming retail, quickly outpacing competitors." },
-  { year: "2025", title: "Rapid Growth", description: "Opened multiple locations across California within our first year." },
-  { year: "2025", title: "Industry Leader", description: "Became the go-to destination for gamers with our unmatched selection and customer experience." },
+  { year: "2024", title: "Founded", description: "Game Core launched in Palmdale, CA with a revolutionary approach to gaming retail." },
+  { year: "2024", title: "Rapid Growth", description: "Quickly outpaced competitors with our unmatched product selection and customer experience." },
+  { year: "2024", title: "Industry Leader", description: "Became the go-to destination for gamers across the Antelope Valley and beyond." },
 ];
 
 const team = [
@@ -63,7 +63,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
               className="text-lg text-gray-400 max-w-2xl mx-auto"
             >
-              Founded in 2025, Game Core brought a brand-new vision to gaming retail.
+              Founded in 2024, Game Core brought a brand-new vision to gaming retail.
               With an innovative approach and unmatched product selection, we quickly
               became the leading game store in California, leaving competitors behind.
             </motion.p>
@@ -84,7 +84,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-white mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  Game Core was born in 2025 with a simple but powerful idea: gaming retail
+                  Game Core was born in 2024 with a simple but powerful idea: gaming retail
                   needed a revolution. While other stores were stuck in the past, we launched
                   with a fresh approach — curating the best products, creating an unbeatable
                   in-store experience, and building a real community around gaming culture.
@@ -96,8 +96,7 @@ export default function AboutPage() {
                   is always our top priority.
                 </p>
                 <p>
-                  In just our first year, we&apos;ve expanded to three locations across California,
-                  built a loyal customer base of thousands, and established ourselves as the
+                  Since launching in Palmdale, CA, we&apos;ve built a loyal customer base of thousands, and established ourselves as the
                   go-to destination for gaming enthusiasts. This is just the beginning.
                 </p>
               </div>
