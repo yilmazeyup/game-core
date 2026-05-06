@@ -14,7 +14,7 @@ const posts = [
     excerpt:
       "Sony's next-gen upgrade promises 8K support, enhanced ray tracing, and a larger SSD. Here's a breakdown of the confirmed specs, pricing, and launch window.",
     date: "April 28, 2026",
-    author: "Ahmet Yilmaz",
+    author: "Jason Mitchell",
     category: "News" as const,
     readTime: "5 min read",
     image: "/images/konsol-vitrini.jpeg",
@@ -25,7 +25,7 @@ const posts = [
     excerpt:
       "From indie gems to blockbuster exclusives, these are the Switch titles every gamer needs in their collection this year.",
     date: "April 22, 2026",
-    author: "Elif Demir",
+    author: "Sarah Chen",
     category: "Guide" as const,
     readTime: "7 min read",
     image: "/images/oyun-raflari.jpeg",
@@ -36,7 +36,7 @@ const posts = [
     excerpt:
       "The latest Pokemon TCG expansion brings stunning prismatic art and powerful new mechanics. We break down the best pulls and deck strategies.",
     date: "April 15, 2026",
-    author: "Can Ozturk",
+    author: "Marcus Rivera",
     category: "Review" as const,
     readTime: "6 min read",
     image: "/images/kart-sergi.jpeg",
@@ -47,7 +47,7 @@ const posts = [
     excerpt:
       "Building a retro collection doesn't have to break the bank. Learn smart buying strategies, where to find deals, and which consoles hold their value.",
     date: "April 10, 2026",
-    author: "Selin Kaya",
+    author: "Emily Park",
     category: "Guide" as const,
     readTime: "8 min read",
     image: "/images/retro-konsol.jpeg",
@@ -58,7 +58,7 @@ const posts = [
     excerpt:
       "Get ready for our biggest competitive season yet. Weekly tournaments spanning Pokemon, Magic: The Gathering, and Super Smash Bros. with over $5,000 in prizes.",
     date: "April 5, 2026",
-    author: "Ahmet Yilmaz",
+    author: "Jason Mitchell",
     category: "News" as const,
     readTime: "4 min read",
     image: "/images/magaza-musteriler.jpeg",
@@ -69,7 +69,7 @@ const posts = [
     excerpt:
       "With both consoles now in their stride, we compare game libraries, performance, online services, and value to help you decide.",
     date: "March 28, 2026",
-    author: "Can Ozturk",
+    author: "Marcus Rivera",
     category: "Review" as const,
     readTime: "10 min read",
     image: "/images/magaza-urunler-1.jpeg",
@@ -80,7 +80,7 @@ const posts = [
     excerpt:
       "Commander is the most popular MTG format for a reason. This beginner-friendly guide walks you through building a fun and competitive deck from scratch.",
     date: "March 20, 2026",
-    author: "Elif Demir",
+    author: "Sarah Chen",
     category: "Guide" as const,
     readTime: "9 min read",
     image: "/images/magaza-urunler-2.jpeg",
@@ -91,7 +91,7 @@ const posts = [
     excerpt:
       "We're thrilled to announce our Palmdale location is expanding with a dedicated TCG arena, retro gaming lounge, and a new product wing opening this summer.",
     date: "March 14, 2026",
-    author: "Ahmet Yilmaz",
+    author: "Jason Mitchell",
     category: "News" as const,
     readTime: "3 min read",
     image: "/images/magaza-genel-1.jpeg",

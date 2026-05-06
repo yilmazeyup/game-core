@@ -29,10 +29,10 @@ const milestones = [
 ];
 
 const team = [
-  { name: "Ahmet Yilmaz", role: "Founder & CEO", gradient: "from-purple-500 to-pink-500" },
-  { name: "Elif Demir", role: "Store Manager", gradient: "from-cyan-500 to-blue-500" },
-  { name: "Can Ozturk", role: "Product Specialist", gradient: "from-green-500 to-emerald-500" },
-  { name: "Selin Kaya", role: "Customer Relations", gradient: "from-orange-500 to-red-500" },
+  { name: "Jason Mitchell", role: "Founder & CEO", gradient: "from-purple-500 to-pink-500" },
+  { name: "Sarah Chen", role: "Store Manager", gradient: "from-cyan-500 to-blue-500" },
+  { name: "Marcus Rivera", role: "Product Specialist", gradient: "from-green-500 to-emerald-500" },
+  { name: "Emily Park", role: "Customer Relations", gradient: "from-orange-500 to-red-500" },
 ];
 
 const fadeUp = {
