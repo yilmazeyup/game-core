@@ -1,11 +1,53 @@
+"use client";
+
 import Link from "next/link";
-import { Gamepad2, MapPin, Mail } from "lucide-react";
+import { Gamepad2, MapPin, Mail, Send } from "lucide-react";
+import { useState } from "react";
 
 export default function Footer() {
+  const [email, setEmail] = useState("");
+  const [subscribed, setSubscribed] = useState(false);
+
   return (
     <footer className="bg-gray-950 border-t border-purple-500/20 mt-auto">
+      {/* Newsletter Banner */}
+      <div className="border-b border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <h3 className="text-xl font-bold text-white">Stay in the Game</h3>
+              <p className="text-gray-400 text-sm mt-1">Get the latest deals, new arrivals, and gaming news delivered to your inbox.</p>
+            </div>
+            {subscribed ? (
+              <p className="text-green-400 font-medium">Thanks for subscribing!</p>
+            ) : (
+              <form
+                onSubmit={(e) => { e.preventDefault(); if (email) setSubscribed(true); }}
+                className="flex w-full md:w-auto gap-2"
+              >
+                <input
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Enter your email"
+                  className="flex-1 md:w-72 px-4 py-2.5 bg-gray-800/50 border border-gray-700 rounded-lg text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-purple-500 transition-colors"
+                />
+                <button
+                  type="submit"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-gradient-to-r from-purple-600 to-cyan-600 text-white text-sm font-semibold hover:from-purple-500 hover:to-cyan-500 transition-all"
+                >
+                  <Send className="w-4 h-4" />
+                  Subscribe
+                </button>
+              </form>
+            )}
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Gamepad2 className="w-7 h-7 text-purple-400" />
@@ -25,7 +67,10 @@ export default function Footer() {
               {[
                 { href: "/products", label: "Products" },
                 { href: "/gallery", label: "Gallery" },
+                { href: "/blog", label: "Blog" },
+                { href: "/events", label: "Events" },
                 { href: "/about", label: "About" },
+                { href: "/faq", label: "FAQ" },
                 { href: "/contact", label: "Contact" },
               ].map((link) => (
                 <li key={link.href}>

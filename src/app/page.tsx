@@ -4,6 +4,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Gamepad2, Package, Star, TrendingUp, ChevronRight, Sparkles } from "lucide-react";
 import Image from "next/image";
+import Testimonials from "@/components/Testimonials";
+import WeeklyPicks from "@/components/WeeklyPicks";
 
 const categories = [
   {
@@ -281,6 +283,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Staff Picks */}
+      <WeeklyPicks />
+
+      {/* Testimonials */}
+      <Testimonials />
 
       {/* CTA */}
       <section className="py-20">
